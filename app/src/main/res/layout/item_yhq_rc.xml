@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/bak"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_yhq_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:padding="5dp"
+        android:text="5元加油券"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/item_yhq_all"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:padding="5dp"
+        android:text="0"
+        android:textColor="@color/black"
+      />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/item_yhq_jian"
+            android:layout_width="30dp"
+            android:paddingLeft="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="—"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/item_yhq_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:ellipsize="end"
+            android:text="0"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/item_yhq_jia"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:paddingRight="10dp"
+            android:text="+"
+            android:textColor="@color/black"
+           />
+
+
+    </LinearLayout>
+
+</LinearLayout>

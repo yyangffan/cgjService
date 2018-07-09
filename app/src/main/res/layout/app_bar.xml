@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <import type="android.view.View"/>
+        <import type="com.lhkj.cgjservice.lock.AppBarLock.AppBarData"/>
+        <variable
+            name="appBarLock"
+            type="com.lhkj.cgjservice.lock.AppBarLock"/>
+    </data>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/main_color"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/ims_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@{appBarLock.barData.imsLeft}"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:layout_marginLeft="8dp"
+            android:onClick="@{()->appBarLock.leftClick()}"
+            android:visibility="@{appBarLock.barData.isLeft?View.VISIBLE:View.GONE}"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            android:onClick="@{()->appBarLock.leftClick()}"
+            android:text="@{appBarLock.barData.titleLeft}"
+            android:textColor="@color/white"
+            android:visibility="@{appBarLock.barData.isLeft?View.VISIBLE:View.GONE}"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="28dp"
+            android:padding="8dp"
+            android:text="@{appBarLock.barData.title}"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@{appBarLock.barData.imsRight}"
+            android:layout_marginRight="8dp"
+            android:padding="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="@{()->appBarLock.rightClick()}"
+            android:visibility="@{appBarLock.barData.isRight?View.VISIBLE:View.GONE}"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:onClick="@{()->appBarLock.rightClick()}"
+            android:text="@{appBarLock.barData.titleRight}"
+            android:textColor="@color/white"
+            android:visibility="@{appBarLock.barData.isRight?View.VISIBLE:View.GONE}"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

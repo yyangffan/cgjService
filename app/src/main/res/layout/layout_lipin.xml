@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/lipin_ll"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/lipin_imgv"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/lipin_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:lines="2"
+            android:padding="5dp"
+            android:text="礼品名称"/>
+
+        <TextView
+            android:id="@+id/lipin_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="2017-4-4 123：22"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"/>
+
+</LinearLayout>

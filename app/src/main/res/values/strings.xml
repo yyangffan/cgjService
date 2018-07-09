@@ -1,0 +1,119 @@
+<resources>
+    <!--main-->
+    <string name="app_name">油品惠</string>
+    <string name="main">主页</string>
+    <string name="oilhis">加油记录</string>
+    <string name="getlll">获得积分:</string>
+    <string name="oilbanner">客户加油详情页</string>
+    <string name="use_enter">确认使用</string>
+    <string name="coupon">优惠卷</string>
+    <string name="canl">取消</string>
+    <string name="read_qr">扫一扫</string>
+    <string name="info_phone">直输手机号</string>
+    <!--login-->
+    <string name="pleasephone">请输入手机号码</string>
+    <string name="pleasepwd">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="sign">注册</string>
+    <string name="forget">忘记密码？</string>
+    <string name="enter">确定</string>
+    <string name="sendcode">获取验证码</string>
+    <string name="pleasecode">请输入验证码</string>
+    <string name="pleaseforpwd">请输入6-18位英文和数字混合密码</string>
+    <string name="pleaseforrepwd">再次输入密码</string>
+    <string name="forsuccess">找回密码成功！</string>
+    <string name="signsuccess">注册成功！</string>
+    <string name="hasname">已有账号</string>
+    <string name="argee">我同意</string>
+    <!--mine-->
+    <string name="loginor">登录/注册</string>
+    <string name="perfect">完善资料</string>
+    <string name="myorder">我的订单</string>
+    <string name="mycard">我的卡卷</string>
+    <string name="myerweima">我的二维码</string>
+    <string name="myspeak">我的评论</string>
+    <string name="lllgame">积分小游戏</string>
+    <string name="myshare">邀请有礼</string>
+    <string name="myhis">加油记录</string>
+    <string name="mysign">签到有礼</string>
+    <string name="set">设置</string>
+    <string name="sendmsg">推送通知</string>
+    <string name="ccache">清理缓存</string>
+    <string name="about">关于我们</string>
+    <string name="edition">当前版本</string>
+    <string name="exit">退出登录</string>
+    <string name="userinfo">个人信息</string>
+    <string name="carinfo">车辆信息</string>
+    <string name="modify">修改资料</string>
+    <string name="tofen">邀请好友</string>
+    <string name="myfen">我的邀请</string>
+    <string name="yuan">元</string>
+    <string name="oilcard">加油券</string>
+    <string name="shopcard">商品券</string>
+    <string name="paycard">现金券</string>
+    <string name="carcard">洗车券</string>
+    <string name="use_card">使用卡券</string>
+    <string name="headinfo">(点击修改头像)</string>
+    <string name="username">账号</string>
+    <string name="usernike">昵称</string>
+    <string name="usersex">性别</string>
+    <string name="brand">品牌</string>
+    <string name="platenumber">车牌号</string>
+    <string name="plateage">车年份</string>
+    <string name="platemin">行驶公里数</string>
+    <string name="pleaseplatenumber">请填写车牌号</string>
+    <string name="pleaseplatemin">请输入当前行驶公里数</string>
+    <string name="life">品质生活</string>
+    <string name="cars">汽车用品</string>
+    <string name="customized">私人定制</string>
+    <string name="pleaseselect">请选择</string>
+    <string name="valid_until">有效期至</string>
+    <string name="pleaseoil">请输入消费金额</string>
+    <string name="oil">加油金额</string>
+    <string name="lll">积分:</string>
+    <string name="curhis">客户加油历史记录</string>
+    <string name="coupon_null">没有该类型的优惠券</string>
+    <string name="infosucc">输入成功</string>
+    <string name="payed">已经支付</string>
+    <string name="now_exchange">立即兑换</string>
+    <string name="exchange_succ">兑换成功</string>
+    <string name="exchange_detail">兑换详情</string>
+
+    <string name="cancel">取消</string>
+    <string name="pick_photo">从相册选择</string>
+    <string name="take_photo">拍照</string>
+    <string name="please_output_your_cell_phone_number">请输入手机号</string>
+    <string name="youhuiquan">优惠券兑换记录</string>
+    <string name="shangpin">商品兑换记录</string>
+
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+
+
+    <!--instruction-->
+    <string name="toast_1">事务打印请使用Aidl模式!</string>
+    <string name="toast_2">服务已断开!(打印功能,手机端忽略)</string>
+    <string name="toast_3">蓝牙设备不可用</string>
+    <string name="toast_4">未检测到蓝牙设备，请打开蓝牙</string>
+    <string name="toast_5">未发现InnterPrinter!</string>
+    <string name="toast_6">蓝牙连接失败!</string>
+    <string name="toast_7">AIDL 暂时只打印单个二维码</string>
+    <string name="toast_8">两个二维码尺寸最大为7</string>
+
+    <string name="oil_print">是否打印加油券</string>
+    <string name="shangpin_print">是否打印商品券</string>
+    <string name="dui_print">兑换汇总打印</string>
+
+
+</resources>
